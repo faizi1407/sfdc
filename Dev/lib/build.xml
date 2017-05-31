@@ -1,4 +1,4 @@
-<project name="Faizan - Continuous Integration Demo" default="fetchChanges" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Sudipta Deb - Continuous Integration Demo" default="fetchChanges" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
