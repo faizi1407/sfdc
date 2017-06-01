@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Referral__c</fullName>
+        <externalId>false</externalId>
+        <label>Referral</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Referred</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Non referred</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
