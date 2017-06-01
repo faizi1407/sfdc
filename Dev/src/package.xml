@@ -28,6 +28,7 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    
     <types>
 <members>Opportunity.Referral__c</members>
 <name>CustomField</name>

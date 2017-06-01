@@ -1,4 +1,4 @@
-<project name="Shivasoft ANT Tutorial" default="deployCode" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Deployment thru ANT" default="deployCode" basedir="." xmlns:sf="antlib:com.salesforce">
     <property file="build.properties"/>
     <property environment="env"/>
     <!-- Shows deploying code &amp; running tests for code in directory -->
@@ -7,7 +7,7 @@
     </target>
     <!-- Shows removing code; only succeeds if done after deployCode -->
     <target name="undeployCode">
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="removecodepkg"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="adiff"/>
     </target>
 	
 </project>
