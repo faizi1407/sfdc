@@ -6,6 +6,11 @@
     </types>
     <types>
         <members>*</members>
+        <name>Workflow</name>
+    </types>
+    
+    <types>
+        <members>*</members>
         <name>ApexComponent</name>
     </types>
     <types>
